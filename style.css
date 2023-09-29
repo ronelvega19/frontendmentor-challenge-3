@@ -104,8 +104,8 @@ hr{
 }
 
 .image-desk{
-    object-fit: fill;
-    max-width: 970px;
+ height: 100%;
+   width: 100%;
 
 }
 
