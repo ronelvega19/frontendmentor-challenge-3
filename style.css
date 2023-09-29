@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Poppins&family=Sacramento&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+li{
+    list-style: none;
+   
+   
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.navigation{
+  
+    display: flex;
+    gap: 50px;
+    width: 1440px;
+    margin-top: 30px;
+    justify-content: end;
+       
+}
+h3{
+    color: white;
+    padding-top: 50px;
+    font-size: 1.7rem;
+
+}
+
+.text-nav{
+    text-align: end;
+  
+}
+
+.remove-margin{
+    padding-top: 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+
+}
+
+hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    height: 5px;
+    border-color: white;
+    padding-top: 25px;
+    
+
+    
+}
+.icon-text{
+    position: relative;
+    right: 838px;
+}
+
+.container{
+    justify-content: center;
+    display:grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    grid-template-rows: 390px 390px;
+    gap: 20px;
+    max-width: 1440px;
+    margin: auto;
+
+}
+.card{
+   background-color: hsl(240, 100%, 5%);
+}
+
+.first{
+    grid-column: span 2;
+
+}
+.second{
+    grid-row: span 2;
+    
+}
+
+.image-desk{
+    object-fit: fill;
+    max-width: 970px;
+
+}
+
+.text-width{
+    margin: 15px;
+}
+.new-title{
+    margin-top: 40px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: hsl(35, 77%, 62%);
+    font-size: 50px;
+}
+
+.text-bright{
+    font-size: 80px;
+    color: hsl(240, 100%, 5%);
+    font-weight: bolder;
+    }
+
+.text-wedive{
+    line-height: 35px;
+    color: hsl(240, 100%, 5%);
+    
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 15px;
+    width: 250px;
+    color: white;
+    background-color: hsl(240, 100%, 5%);
+    margin-top: 40px;
+   
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    gap: 10px;
+    max-width: 1440px;
+}
+
+.card-container{
+      display: flex;
+   flex: 1;
+
+    
+}
+
+.image-three{
+   padding-right: 25px;
+}
+
+.three-text{
+    color: hsl(240, 100%, 5%);
+    font-size: 17px;
+}
+
+.number-text{
+    font-size: 3rem;
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 20px;
+}
+
+.small-title{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.burg{
+    display: flex;
+    flex-direction: column;
+   
+   
+
+
+}
+.two{
+    position: relative;
+    top: 10px;
+}
+.three{
+    position: relative;
+    top: 20px;
+}
+
+.burger{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: 20px;
+    
+   
+}
+
+
+
+@media(max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .image-desk{
+        width: 100%;
+    }
+
+    .flex-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+  
+
+
+    
+}
